@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #111;
+}
+
+header{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+.hentai{
+    width: 32px;
+    border-radius: 50%;
+}
+
+.logo{
+    font-family: 'Aclonica';
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_bar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+
+.nav_bar li{
+    display: inline-block;
+}
+
+.nav_bar li a{
+    padding: 15px;
+}
+
+.nav_bar li a:hover{
+    background: #7d7d7a;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+}
+
+.carousel-inner{
+    margin-left: 50px;
+}
+
+.carousel-item img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 85vh;
+    filter: brightness(80%);
+}
+
+.box{
+    background:rgba(0, 0, 0, 0.5);
+    width: 80%;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.left-menu-icon{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.main {
+    color: #111;
+    background-color: #111;
+}
+
+.row {
+    color: #111;
+    background-color: #fff;
+}
+
+.row h2 {
+    margin-left: 50px;
+}
+
+.row h2:hover {
+    cursor: default;
+}
+
+.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_posterLarge {
+    max-height: 250px;
+    max-width: 165px
+}
+
+.row_posterLarge:hover {
+    transform: scale(1.09);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
